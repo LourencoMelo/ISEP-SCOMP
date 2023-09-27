@@ -1,0 +1,8 @@
+a) tudo em aspas é um exemplo pois foi dado run
+Output:
+2. x=0
+3. "23487"; x = 0; id = "23486"
+1. x = 2
+3. 0 ; x = 2, id = 1
+
+b) Não é garantido, depende do escalonamento de processos.

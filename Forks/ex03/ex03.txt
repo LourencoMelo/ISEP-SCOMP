@@ -1,0 +1,8 @@
+a) 2^n . Como n é o numero de fork executados... n=3 logo 8 processos
+b)
+      L1       // There will be 1 child process 
+    /     \     // created by line 1.
+  L2      L2    // There will be 2 child processes
+ /  \    /  \   //  created by line 2
+L3  L3  L3  L3 
+c) 8 vezes

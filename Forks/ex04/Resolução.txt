@@ -1,0 +1,14 @@
+4)
+a)
+O valores de a vao ser iguais em ambos os processos.
+O (b) do processo pai será o pid do filho, e no filho será 0
+O (c) do processo pai vai ser o seu pid, e no filho o seu pid
+O (d) do processo pai vai ser o pid do pai desse processo pai, no processo filho cocmo o processo pai acaba primeiro ele fica filho do pid da shell.
+b)
+
+(Apenas 1 fork)
+|
+---|
+|  |
+|  |
+|  |

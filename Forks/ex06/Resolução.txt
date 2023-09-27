@@ -1,0 +1,19 @@
+6)
+a) 2^4 = 16 processos
+b) em vez de sleep(1) escrever exit(i);
+c)
+for(i = 0; i<4; i++){
+	pid = fork();
+	if(p== 0) {
+		exit(1); // da exit para nao o filho nao fazer mais forks
+	}
+	if(pid % 2 == 0){
+		waitpid(pid, &status, 0) espera q acabe o pid
+		if(WIFEXITED(status)){ se acabar direito 
+			printf("pid: %d Number: %d \n", pid, i); da print
+		}
+	}
+}
+printf("End");
+
+d)
